@@ -1,0 +1,13 @@
+<?php if (isset($_SESSION['username'])):
+      $fetchdata = new DB_con();
+      $sql = $fetchdata->fetchdata();
+      while ($row = mysqli_fetch_array($sql)) {
+        ?>
+        <?php if ($row['urole'] === 'M'): ?>
+          <p>Welcome <strong><?php echo $_SESSION['username']; ?></strong> Status : <strong><?php echo $row['urole']; ?></strong></p>
+          <a href="logout.php" class="btn btn-danger">Logout</a>
+          <a href="register.php" class="btn btn-primary">Register</a>
+        <?php endif ?>
+      <?php
+      }
+    ?>
