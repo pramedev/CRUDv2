@@ -1,0 +1,128 @@
+    html {
+        font-family: Arial, sans-serif;
+    }
+    .container {
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+    }
+    
+    form {
+        border-color: black;
+        border-width: 15px;
+        text-align: center;
+        width: 450px;
+        margin: 0 auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding: 3%;
+        padding-top: 0%;
+        background-color: #fff;
+        border-radius: 15px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        border: 2px solid #007bff;
+        
+    }
+
+    label {
+        display: block;
+        padding-bottom: 5px;
+        text-align: left;
+        padding-left: 13%;
+    }
+
+    input{
+        width: 70%;
+        padding: 8px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+    }
+
+    .clear {
+        width:auto ;
+        display: inline;
+        margin: 0%;
+        padding: 0%;
+        border: none;
+    }
+    
+    .submitBTN {
+        width: 40%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    } .submitBTN:hover {
+        background-color: #024287;
+    }
+
+    .cancelBTN {
+        width: 40%;
+        padding: 10px;
+        background-color: #f10404;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    } .cancelBTN:hover {
+        background-color: #a60202;
+    }
+    
+
+    .update-btn {
+        width: 60%;
+        padding: 10px;
+        background-color: #00b60f;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }.update-btn:hover {
+        background-color: #019b06;
+    }
+
+    .delete-btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #dc0909;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }.delete-btn:hover {
+        background-color: #720303;
+    }
+
+    .insert-btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #0055ff;
+        text-align: center;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }.insert-btn:hover {
+        background-color: #0768f0;
+    }
+
+    .table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    .th, .td {
+        border: 1px solid #dddddd;
+        text-align: left;
+        font-size: large;
+        padding: 8px;
+    }
+    
+    /* สีพื้นหลังสลับสำหรับแถวของตาราง */
+    .tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+    

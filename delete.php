@@ -1,14 +1,16 @@
 <?php 
-    include_once('functions.php');
+    include('function.php');
 
-    if (isset($_GET['del'])) {
-        $userid = $_GET['del'];
-        $deletedata = new DB_con();
-        $sql = $deletedata->delete($userid);
+    $del = $_GET['del'];
 
-        if ($sql) {
-            echo "<script>alert('Record Deleted Successfully!');</script>";
-            echo "<script>window.location.href='adminpage.php'</script>";
+    if(isset($del)) {
+        $deletedata = new DB_CON();
+        $userID = $_GET['del'];
+        $deletedata->delete($userID);
+
+        if($deletedata) {
+            echo "Deleted ID :" . $userID;
+            header('location: adminpage.php');
         }
     }
 
