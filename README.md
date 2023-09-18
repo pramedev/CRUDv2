@@ -1,13 +1,12 @@
-<h1 align="center">Hi 👋, I'm Pramedev</h1>
+<h1 align="center">Hi 👋, I'm Prame</h1>
 <h3 align="center">I.T student from Nakhonnayok Technical College.</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=pramedev&label=Profile%20views&color=0e75b6&style=flat" alt="pramedev" /> </p>
 
 <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=pramedev" alt="pramedev" /></a> </p>
 
-- 🌱 I’m currently learning **HTML, CSS, JavaScript, PHP**
+- 🌱 This repositories is about CRUD system with **HTML, CSS, JavaScript, PHP**
 
-<h3 align="left">Connect with me:</h3>
 <p align="left">
 </p>
 
